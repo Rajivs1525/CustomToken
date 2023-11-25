@@ -1,7 +1,4 @@
 # CustomToken
-# Project Title
-
-Custom Token
 ## Description
 
 Creating a Custom Token and running it on hardhat network
