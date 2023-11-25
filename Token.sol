@@ -44,7 +44,7 @@ contract Token {
         require(_from != address(0), "Invalid sender address.");
         require(_to != address(0), "Invalid recipient address.");
         require(_value <= balanceOf[_from], "Insufficient balance.");
-        //require(_value <= allowances[_from][msg.sender], "Insufficient allowance.");
+        require(_value <= allowances[_from][msg.sender], "Insufficient allowance.");
 
         balanceOf[_from] -= _value;
         balanceOf[_to] += _value;
