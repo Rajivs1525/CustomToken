@@ -1,4 +1,4 @@
-# Avalanchemod3
+# Custom Token
 
 This code provides an understanding about creating and minting token.
 
@@ -8,9 +8,9 @@ This program creates and mints a new token . We have used openzeppelin to get th
 
 ## Authors
 
-Kushaal R
+Rajiv S
 
-@kushaalrajiv@gmail.com
+@rajiv2515@gmail.com
 
 ## License
 
